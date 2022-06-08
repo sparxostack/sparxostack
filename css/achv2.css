@@ -1,0 +1,116 @@
+.achv2 .h1 {
+    font-size: 2.75em;
+}
+
+.achv2 .story_img {
+    width: 130px;
+}
+
+.achv2 .indexList_row:last-child .indexList_item {
+    margin-bottom: 0;
+}
+
+.achv2 .indexList_item {
+    flex-direction: row;
+    border: 1px solid rgb(0 0 0 / 15%);
+}
+
+.achv2 .indexList_item:hover {
+    /* border-color: transparent; */
+    /* box-shadow: 8px 12px 40px rgb(0 0 0 / 10%); */
+    /* box-shadow: 8px 12px 35px rgb(0 0 0 / 10%); */
+    box-shadow: none;
+}
+
+
+.achv2 .indexList_item:hover .indexList_item-info {
+    /* background-color: white; */
+    background-color: rgb(174 178 194 / 10%);
+}
+
+.achv2 .indexList_item:hover .indexList_item-info__header h3 {
+    color: #4b5a95;
+    color: #394b91;
+    color: #243988;
+    color: black;
+}
+
+.achv2 .indexList_item:hover .indexList_item-ver {
+    background-color: rgba(153, 159, 180, 0.75);
+    background-color: rgb(129 136 161 / 75%);
+}
+
+.achv2 .indexList_item-media {
+    width: 60%;
+    width: 58%;
+}
+
+.achv2 .indexList_item-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+}
+
+.achv2  .indexList_item-info {
+    width: 40%;
+    width: 42%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding: 1.125rem 1.25rem 0.75rem;
+
+    background-color: rgb(174 178 194 / 20%);
+    background-color: rgb(174 178 194 / 10%);
+    /* background-color: #f1f2f3; */
+}
+
+.achv2 .indexList_item-info__header {
+    display: block;
+}
+
+.achv2 .indexList_item-info__header h3 {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.achv2 .indexList_item-ver {
+    display: block;
+    width: fit-content;
+    background-color: rgb(129 136 161 / 75%);
+    font-size: .7rem;
+}
+
+.achv2 .indexList_item-info p {
+    margin-top: 0.65rem;
+    font-size: 15px;
+    opacity: .7;
+}
+
+.indexList_itemLink {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 4px 7px 5px;
+    padding: 5px 8px 6px;
+    padding: 6px 9px 7px;
+    /* padding: 7px 10px 8px; */
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    font-size: 13px;
+    transition: .2s all ease;
+}
+
+.indexList_itemLink:hover {
+    background-color: #097ae7;
+    background-color: #0077e6;
+    /* background-color: #0073df; */
+}
+
+.indexList_itemLink_icon {
+    margin-left: 2px;
+    font-size: 13px;
+    font-size: 12px;
+}
