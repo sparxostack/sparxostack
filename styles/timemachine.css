@@ -1,0 +1,148 @@
+.timemachine {
+    background-color: rgb(89 137 172 / 11%);
+}
+
+.timemachineIndex .content {
+    padding: 1em 0;
+}
+
+.indexList_title {
+    margin-top: 1em;
+    font-size: 1.375em;
+    font-weight: 800;
+    opacity: .9;
+}
+
+.indexList_item {
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1.75rem 1rem 0;
+    margin: 1.5rem 0.875rem 0;
+    margin: 1.25rem 0.875rem 0;
+    transition: .2s all ease;
+    width: 48.5%;
+}
+
+.indexList_item:hover {
+    border: 1px solid rgb(0 0 0 / 4%);
+    box-shadow: rgba(0, 0, 0, 0.1) 6px 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.08) 6px 8px 15px;
+}
+
+.indexList_item:hover .indexList_item-info__header h3 {
+    color: black;
+}
+
+.indexList_item:nth-child(odd) {
+    margin-left: 0;
+}
+
+.indexList_item:nth-child(even) {
+    margin-right: 0;
+}
+
+.indexList_itemContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.indexList_item-media {
+    width: 45%;
+    width: 42%;
+    /* width: 38%; */
+    /* width: 50%; */
+}
+
+.indexList_item-img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 12px;
+}
+
+.indexList_item-info {
+    background-color: white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.325rem 0.875rem;
+    width: 55%;
+    width: 58%;
+    /* width: 62%; */
+    /* width: 50%; */
+}
+
+.indexList_item-info__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indexList_item-info__header h3 {
+    font-size: 1.1em;
+    opacity: .9;
+    /* font-weight: 400; */
+}
+
+.indexList_item-ver {
+    background-color: rgb(129 136 161 / 75%);
+    border-radius: 40px;
+    color: white;
+    display: block;
+    font-size: .7rem;
+    padding: 0.175rem 0.6rem;
+    width: fit-content;
+    display: none;
+}
+
+.indexList_item-info p {
+    margin-top: 0.6rem;
+    font-size: 14px;
+    opacity: .7;
+    line-height: 1.25;
+}
+
+.indexList_itemLink {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 13px;
+    transition: .2s all ease;
+}
+
+.indexList_itemLink:hover {
+    background-color: #0077e6;
+}
+
+.indexList_itemLink_icon {
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.indexList_itemLink.outline {
+    color: white;
+    border-color: dodgerblue;
+}
+
+.indexList_itemLink.link {
+    color: dodgerblue;
+    padding: 6px 0 7px;
+    background-color: transparent;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+
+.indexList_itemLink.link:hover {
+    color: #0077e6;
+    color: #0064e7;
+    background-color: transparent;
+}
