@@ -4,7 +4,7 @@
 
 .itemList {
     margin-top: 1.25em;
-    margin-top: .5em;
+    margin-top: .75em;
 }
 
 .timemachineIndex .content {
@@ -29,8 +29,8 @@
 }
 
 .itemList_title {
-    /* font-size: 1.375em; */
-    font-size: 1.425em;
+    font-size: 1.375em;
+    /* font-size: 1.425em; */
     font-weight: 800;
     opacity: .9;
     text-transform: capitalize;
