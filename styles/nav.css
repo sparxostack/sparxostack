@@ -24,10 +24,13 @@
     letter-spacing: .25px;
     color: white;
     margin: 0;
+    padding-bottom: 2px;
 }
 
 .navLinks {
     display: flex;
+    align-items: center;
+    margin-top: -3px;
 }
 
 .navLink {
@@ -40,7 +43,7 @@
     letter-spacing: .25px;
     font-size: 14px;
     margin-left: 2rem;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 .navLink:hover,
@@ -51,19 +54,21 @@
 }
 
 .navLink:hover .navLink_icon {
-    background-color: rgba(255, 255, 255, 1);
+    /* background-color: rgba(255, 255, 255, 1); */
 }
 
 .navLink:hover .navLink_icon i {
-    color: black;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
 }
 
 .navLink_icon {
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 3px;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    /* padding: 3px; */
+    padding: 3px 3px 0;
     border-radius: 4px;
-    margin-right: 8px;
-    transition: .3s all ease;
+    margin-right: 6px;
+    /* transition: .25s all ease; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,5 +76,7 @@
 
 .navLink_icon i {
     color: black;
+    color: rgba(255, 255, 255, 0.6);
     font-size: 12px;
+    font-size: 14px;
 }
