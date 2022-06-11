@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url(nav.css);
-@import url(timemachine.css);
+@import url(layouts.css);
 
 *,
 *::after,
@@ -112,4 +112,33 @@ footer .content {
 
 .copyrights .author {
     /* margin-left: 2px; */
+}
+
+
+/*********** MISCELLANEOUS ************/
+.english .headerIcon {
+    font-size: 20px;
+    padding: 12px 10px;
+    font-size: 24px;
+    padding: 10px 7px;
+}
+
+.notebooks .headerIcon {
+    font-size: 24px;
+    padding: 10px 11.5px;
+}
+
+.index .headerIcon {
+    padding: 8px 9px;
+}
+
+.layouts .headerIcon {
+    padding: 8px 9.75px;
+}
+
+.code .headerIcon {
+    font-size: 26px;
+    padding: 9px 5.75px;
+    font-size: 24px;
+    padding: 10px 7px;
 }
